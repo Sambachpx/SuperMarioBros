@@ -1,0 +1,323 @@
+Unity Editor version:    2021.3.20f1 (577897200b8b)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.2.1 (Build 22D68)
+Darwin version:          22.3.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.20f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/sambachamproux/Documents/SMB/SuperMarioBros/My project (2)
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+51068
+Successfully changed project path to: /Users/sambachamproux/Documents/SMB/SuperMarioBros/My project (2)
+/Users/sambachamproux/Documents/SMB/SuperMarioBros/My project (2)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8267776320] Host "[IP] 192.168.1.77 [Port] 0 [Flags] 2 [Guid] 1085404241 [EditorId] 1085404241 [Version] 1048832 [Id] OSXEditor(0,Air-de-Samba) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8267776320] Host "[IP] 192.168.1.77 [Port] 0 [Flags] 2 [Guid] 1085404241 [EditorId] 1085404241 [Version] 1048832 [Id] OSXEditor(0,Air-de-Samba) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 68.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.20f1 (577897200b8b)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.20f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/sambachamproux/Documents/SMB/SuperMarioBros/My project (2)/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.20f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.20f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.20f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56825
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.20f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.20f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000534 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 75.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.397 seconds
+Domain Reload Profiling:
+	ReloadAssembly (397ms)
+		BeginReloadAssembly (45ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (299ms)
+			LoadAssemblies (44ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (67ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (185ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (75ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (81ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001814 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/sambachamproux/Documents/SMB/SuperMarioBros/My project (2)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/sambachamproux/Documents/SMB/SuperMarioBros/My project (2)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 72.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.696 seconds
+Domain Reload Profiling:
+	ReloadAssembly (697ms)
+		BeginReloadAssembly (62ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (573ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (152ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (296ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (2ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (73ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (143ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.20f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.19 seconds
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3734 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (296.1 KB). Loaded Objects now: 4193.
+Memory consumption went from 136.9 MB to 136.6 MB.
+Total: 2.478125 ms (FindLiveObjects: 0.136292 ms CreateObjectMapping: 0.045834 ms MarkObjects: 2.241791 ms  DeleteObjects: 0.053541 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 27344.386365 seconds.
+  path: Assets/platformerart_pixelredux_2 /Backgrounds/backgrounds.png
+  artifactKey: Guid(aa5ccd999442a4c11a95830d467be78c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformerart_pixelredux_2 /Backgrounds/backgrounds.png using Guid(aa5ccd999442a4c11a95830d467be78c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9203fdbbadb75d562ebc86269c8ee1fe') in 0.587263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.351555 seconds.
+  path: Assets/platformerart_pixelredux_2 /Tiles/tile_0001.png
+  artifactKey: Guid(45cc96e7162f9458bbf0d400e8b9bfae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformerart_pixelredux_2 /Tiles/tile_0001.png using Guid(45cc96e7162f9458bbf0d400e8b9bfae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efa0c0ce390a9d95b09f735025ee7669') in 0.010733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/platformerart_pixelredux_2 /Tiles/tile_0031.png
+  artifactKey: Guid(5968bc2aef4d544729a4ef46b0485298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformerart_pixelredux_2 /Tiles/tile_0031.png using Guid(5968bc2aef4d544729a4ef46b0485298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '064bc995225eca79448bf4058b2496b6') in 0.008656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/platformerart_pixelredux_2 /Tiles/tile_0011.png
+  artifactKey: Guid(6dd141fe13f784b54910a3ba80017cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformerart_pixelredux_2 /Tiles/tile_0011.png using Guid(6dd141fe13f784b54910a3ba80017cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fde8e711d2346cc79d327c73a5004954') in 0.007391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/platformerart_pixelredux_2 /Tiles/tile_0015.png
+  artifactKey: Guid(d07dad77183af41adb0a722d6be51e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformerart_pixelredux_2 /Tiles/tile_0015.png using Guid(d07dad77183af41adb0a722d6be51e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '694ffcb11f9e6a741b9a46037b82f5d2') in 0.007179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/platformerart_pixelredux_2 /Tiles/tile_0025.png
+  artifactKey: Guid(700e5fa67033a4a95909d4bcc122bc3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformerart_pixelredux_2 /Tiles/tile_0025.png using Guid(700e5fa67033a4a95909d4bcc122bc3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a84a24847896b4b306fbdb1962eb4d4') in 0.006726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/platformerart_pixelredux_2 /Tiles/tile_0013.png
+  artifactKey: Guid(8f274fbd53e86431185fe6284a84d1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformerart_pixelredux_2 /Tiles/tile_0013.png using Guid(8f274fbd53e86431185fe6284a84d1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45e0aab9dfab44cccb1479dec063352f') in 0.005971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/platformerart_pixelredux_2 /Tiles/tile_0030.png
+  artifactKey: Guid(d5a358f2e49024022a9eeae53450ebdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformerart_pixelredux_2 /Tiles/tile_0030.png using Guid(d5a358f2e49024022a9eeae53450ebdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a85c2bfd722d67891998a2113cbf90e') in 0.006087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/platformerart_pixelredux_2 /Tiles/tile_0005.png
+  artifactKey: Guid(1c6c2476fb43f4eb4a71967253a50601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformerart_pixelredux_2 /Tiles/tile_0005.png using Guid(1c6c2476fb43f4eb4a71967253a50601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6682f6f4933e621dadbca3911788827') in 0.006196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/platformerart_pixelredux_2 /Tiles/tile_0040.png
+  artifactKey: Guid(1dc04dc85d4504aafa3d7b2eab10dcde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformerart_pixelredux_2 /Tiles/tile_0040.png using Guid(1dc04dc85d4504aafa3d7b2eab10dcde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb414921379b73a9547c80160135bdf7') in 0.006874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/platformerart_pixelredux_2 /Tiles/tile_0032.png
+  artifactKey: Guid(2a46290198a26411084ff5ecc9061f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformerart_pixelredux_2 /Tiles/tile_0032.png using Guid(2a46290198a26411084ff5ecc9061f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21f909acafd489afea6229a7d304627a') in 0.008940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/platformerart_pixelredux_2 /Tiles/tile_0021.png
+  artifactKey: Guid(1b7f2b4cdc979425f97e74ac3685c3a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformerart_pixelredux_2 /Tiles/tile_0021.png using Guid(1b7f2b4cdc979425f97e74ac3685c3a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48c320399bbc5e5683613ee02bf3ef38') in 0.007162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/platformerart_pixelredux_2 /Tiles/tile_0024.png
+  artifactKey: Guid(4fbb11d164d704b7a82b0c70a0ab784f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformerart_pixelredux_2 /Tiles/tile_0024.png using Guid(4fbb11d164d704b7a82b0c70a0ab784f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b034340033b162dead32b7d21b40096') in 0.006168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/platformerart_pixelredux_2 /Tiles/tile_0020.png
+  artifactKey: Guid(e8278ec5bde594e8ba8d5fa86db162b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformerart_pixelredux_2 /Tiles/tile_0020.png using Guid(e8278ec5bde594e8ba8d5fa86db162b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daeace4faf9bd0c4e884269d8e47c5c7') in 0.006118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/platformerart_pixelredux_2 /Tiles/tile_0041.png
+  artifactKey: Guid(227963f4e74a14b75ada9d1528f2cb52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformerart_pixelredux_2 /Tiles/tile_0041.png using Guid(227963f4e74a14b75ada9d1528f2cb52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e18a925ce6ebddb66929cd7823c1ff7a') in 0.005165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/platformerart_pixelredux_2 /Tiles/tile_0007.png
+  artifactKey: Guid(9033ad5b345cf4141943d238dce3660f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformerart_pixelredux_2 /Tiles/tile_0007.png using Guid(9033ad5b345cf4141943d238dce3660f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94f40244be5134d342ea37c2eab9ee6d') in 0.005817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/platformerart_pixelredux_2 /Tiles/tile_0008.png
+  artifactKey: Guid(843882167a35e4126b511d29dbd454b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformerart_pixelredux_2 /Tiles/tile_0008.png using Guid(843882167a35e4126b511d29dbd454b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7514ddc1005419655dfe0c78dd14eff') in 0.006264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/platformerart_pixelredux_2 /Tiles/tile_0026.png
+  artifactKey: Guid(ee6669a788de74230bc38499a5952dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformerart_pixelredux_2 /Tiles/tile_0026.png using Guid(ee6669a788de74230bc38499a5952dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5721839c35f6a2b5595d3c93fa43293') in 0.006048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/platformerart_pixelredux_2 /Tiles/tile_0023.png
+  artifactKey: Guid(23a1b5536aea340a5a862f061e204e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformerart_pixelredux_2 /Tiles/tile_0023.png using Guid(23a1b5536aea340a5a862f061e204e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15d60cb949ee19992abd0fb17072e795') in 0.007079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/platformerart_pixelredux_2 /Tiles/tile_0028.png
+  artifactKey: Guid(1497c3cf9894f4840b52902ddcb2b469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformerart_pixelredux_2 /Tiles/tile_0028.png using Guid(1497c3cf9894f4840b52902ddcb2b469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a85d2292498785d36145ea870091cd26') in 0.007029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/platformerart_pixelredux_2 /Tiles/tile_0039.png
+  artifactKey: Guid(73f24248d4eb346088049f04b43e4f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformerart_pixelredux_2 /Tiles/tile_0039.png using Guid(73f24248d4eb346088049f04b43e4f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db4b510e418b81db1ee391e209da2a49') in 0.005335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/platformerart_pixelredux_2 /Tiles/tile_0002.png
+  artifactKey: Guid(049232e9e015b4e149c8802e1f3c3e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformerart_pixelredux_2 /Tiles/tile_0002.png using Guid(049232e9e015b4e149c8802e1f3c3e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5031da5ff1eeb002e0790d9ed2c6b6ea') in 0.005622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/platformerart_pixelredux_2 /Tiles/tile_0016.png
+  artifactKey: Guid(b6b6898bd44544c00a279e5416423621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformerart_pixelredux_2 /Tiles/tile_0016.png using Guid(b6b6898bd44544c00a279e5416423621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0f3e87148d2161d44db38f838a52fce') in 0.005805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/platformerart_pixelredux_2 /Tiles/tile_0037.png
+  artifactKey: Guid(92ba5e1dc95c64fc4ba63ca8d08bce34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformerart_pixelredux_2 /Tiles/tile_0037.png using Guid(92ba5e1dc95c64fc4ba63ca8d08bce34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e048005b5d5e9718fd4b2c5b7f40093') in 0.004905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.148681 seconds.
+  path: Assets/platformerart_pixelredux_2 /Tilemap/tilemap_packed.png
+  artifactKey: Guid(6c03d6b210918444ea2c12e87b5b63ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformerart_pixelredux_2 /Tilemap/tilemap_packed.png using Guid(6c03d6b210918444ea2c12e87b5b63ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '106f570b5a0c76d3edf1b68e44e6211a') in 0.034877 seconds 
