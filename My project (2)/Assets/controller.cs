@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Controller : MonoBehaviour
+public class controller : MonoBehaviour
 {
-    public float speed = 5f; 
+    public float speed = 100f; 
     public float jumpForce = 10f; 
     public float doubleJumpForce = 12f; 
     private Rigidbody2D rb; 
@@ -26,7 +26,7 @@ public class Controller : MonoBehaviour
         rb.MovePosition(position);
 
         
-        isGrounded = Physics2D.Linecast(transform.position, GameObject.Find("player").transform.position, 1 << LayerMask.NameToLayer("Ground"));
+        isGrounded = Physics2D.Linecast(transform.position, GameObject.Find("player").transform.position, 1 << LayerMask.NameToLayer("sol"));
 
         
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
