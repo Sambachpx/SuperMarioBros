@@ -2,43 +2,28 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Controller : MonoBehaviour
+public class controller : MonoBehaviour
 {
-    public float speed = 5f; 
-    public float jumpForce = 10f; 
-    public float doubleJumpForce = 12f; 
-    private Rigidbody2D rb; 
-    private bool isGrounded; 
-    private bool doubleJump; 
 
-    
+    public Rigidbody2D rb2d;
+    public SpriteRenderer rend;
+    public float Speed = 5;
+    public float JumpSpeed = 50;
+
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
+        rb2d = GetComponent<Rigidbody2D>();
     }
 
-   
     void Update()
+
     {
-        
-        float horizontal = Input.GetAxisRaw("Horizontal");
-        Vector2 position = rb.position + Vector2.right * horizontal * speed * Time.deltaTime;
-        rb.MovePosition(position);
+        float h = Input.GetAxis("Horizontal") * Speed;
+        rb2d.velocity = new Vector2(h, rb2d.velocity.y);
 
-        
-        isGrounded = Physics2D.Linecast(transform.position, GameObject.Find("player").transform.position, 1 << LayerMask.NameToLayer("Ground"));
-
-        
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
-            doubleJump = true;
-        }
-        
-        else if (Input.GetKeyDown(KeyCode.Space) && doubleJump)
-        {
-            rb.AddForce(Vector2.up * doubleJumpForce, ForceMode2D.Impulse);
-            doubleJump = false;
+            rb2d.AddForce(transform.up * JumpSpeed, ForceMode2D.Impulse);
         }
     }
 }
