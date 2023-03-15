@@ -13,6 +13,7 @@ public class controller : MonoBehaviour
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
+        rend = GetComponent<SpriteRenderer>();
     }
 
     void Update()
@@ -25,5 +26,17 @@ public class controller : MonoBehaviour
         {
             rb2d.AddForce(transform.up * JumpSpeed, ForceMode2D.Impulse);
         }
+
+        if (h > 0)
+        {
+            rend.flipX = false;
+        }
+
+        if (h > 0)
+        {
+            rend.flipX = true;
+        }
     }
+
+
 }
