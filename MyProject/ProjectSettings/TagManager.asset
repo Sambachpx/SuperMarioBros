@@ -38,6 +38,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: background
+    uniqueID: 4024058749
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: sol
+    uniqueID: 1872173727
+    locked: 0
+  - name: New Layer 3
+    uniqueID: 3489102979
     locked: 0
