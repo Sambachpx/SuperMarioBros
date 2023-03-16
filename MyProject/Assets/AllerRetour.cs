@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class AllerRetour : MonoBehaviour
 {
+    public SpriteRenderer ennemi1;
     public float speed;
     public Transform[] waypoints;
     private Transform target;
@@ -24,6 +25,7 @@ public class AllerRetour : MonoBehaviour
 
             destPoint = (destPoint + 1) % waypoints.Length;
             target = waypoints[destPoint];
+            ennemi1.flipX = !ennemi1.flipX;
         }
 
     }
