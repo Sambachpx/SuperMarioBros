@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class WeakSpot : MonoBehaviour
+public class WeakSpot_sol : MonoBehaviour
 {
     public GameObject objectToDestroy;
 
@@ -10,12 +10,6 @@ public class WeakSpot : MonoBehaviour
         {
             Destroy(objectToDestroy);
         }
-
-        if (collision.CompareTag("ennemi1"))
-        {
-            Destroy(objectToDestroy);
-        }
-
     }
 
 }
