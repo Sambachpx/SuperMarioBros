@@ -1018,3 +1018,93 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1980.944022 seconds.
+  path: Assets/platformerart_pixelredux_2 /Backgrounds/Pink.asset
+  artifactKey: Guid(72f029d4c4c724ac3b48726a865ce38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformerart_pixelredux_2 /Backgrounds/Pink.asset using Guid(72f029d4c4c724ac3b48726a865ce38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e53d7ca36b0991859fbc69543f4e386') in 0.567003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.972426 seconds.
+  path: Assets/HandPainted Lava Textures/Materials/01.mat
+  artifactKey: Guid(c262c90b10ca8734f9c612ad941e1220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HandPainted Lava Textures/Materials/01.mat using Guid(c262c90b10ca8734f9c612ad941e1220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a6ec6e2c1d72585650afc1caf5f26fe') in 1.658500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/HandPainted Lava Textures/Materials/03.mat
+  artifactKey: Guid(7d02d22da273a1d4fa60e5a5350b9a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HandPainted Lava Textures/Materials/03.mat using Guid(7d02d22da273a1d4fa60e5a5350b9a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b82a6115d9798726ba4d0afff29638d') in 0.034874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/HandPainted Lava Textures/Materials/04.mat
+  artifactKey: Guid(e054df7fe20dcd241b757ce007d6674f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HandPainted Lava Textures/Materials/04.mat using Guid(e054df7fe20dcd241b757ce007d6674f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1453b8ef60faabc26a64029b1c5cbb10') in 0.031171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.334698 seconds.
+  path: Assets/HandPainted Lava Textures/Materials/lave.prefab
+  artifactKey: Guid(645ac1eb2da9f41aaa11e0a3ec63ba70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HandPainted Lava Textures/Materials/lave.prefab using Guid(645ac1eb2da9f41aaa11e0a3ec63ba70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e958f4db67e9f89800633217a8e882ca') in 0.220679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 66.944129 seconds.
+  path: Assets/AlienTileSet/Prefabs/Background/BG_1920x1080.prefab
+  artifactKey: Guid(52d8aaeb9da0bc1418862990937b6c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlienTileSet/Prefabs/Background/BG_1920x1080.prefab using Guid(52d8aaeb9da0bc1418862990937b6c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7ca054a087a60b5601f140b4db6bfdc') in 0.516147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.549670 seconds.
+  path: Assets/AlienTileSet/Prefabs/Camera/Perspective Camera.prefab
+  artifactKey: Guid(ba9bdfba175c60047b20b1dd79f48fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlienTileSet/Prefabs/Camera/Perspective Camera.prefab using Guid(ba9bdfba175c60047b20b1dd79f48fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be4276ec8c1808a5e94cb8e354c076bd') in 0.010128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.277856 seconds.
+  path: Assets/AlienTileSet/Prefabs/Grid/Grids.prefab
+  artifactKey: Guid(95fa83b05359ab5478b12bcfb63232c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlienTileSet/Prefabs/Grid/Grids.prefab using Guid(95fa83b05359ab5478b12bcfb63232c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4175516f4bd4b0fe28baf4a5f1fc4600') in 1.195342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.849244 seconds.
+  path: Assets/AlienTileSet/Prefabs/Logic/Restarter Collider.prefab
+  artifactKey: Guid(caee1e2de8961f946943b57f62a51b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlienTileSet/Prefabs/Logic/Restarter Collider.prefab using Guid(caee1e2de8961f946943b57f62a51b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2129c791a464cf6a3aa4d9b88bca349c') in 0.007941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.357926 seconds.
+  path: Assets/AlienTileSet/Prefabs/Moon/Planet_big_purple_512x512.prefab
+  artifactKey: Guid(8952ef33a6b31ee4cafac7eb203e4694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlienTileSet/Prefabs/Moon/Planet_big_purple_512x512.prefab using Guid(8952ef33a6b31ee4cafac7eb203e4694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aef6e88b54acd9bf3c1c6cad49834d75') in 0.034218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000547 seconds.
+  path: Assets/AlienTileSet/Prefabs/Moon/Planet_small_red_512x512.prefab
+  artifactKey: Guid(2547c42a74fd88844bbddd4be481c30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlienTileSet/Prefabs/Moon/Planet_small_red_512x512.prefab using Guid(2547c42a74fd88844bbddd4be481c30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73ea88063a305f864a9a59de884d4725') in 0.019650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.017032 seconds.
+  path: Assets/AlienTileSet/Prefabs/Grid/Grids.prefab
+  artifactKey: Guid(95fa83b05359ab5478b12bcfb63232c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlienTileSet/Prefabs/Grid/Grids.prefab using Guid(95fa83b05359ab5478b12bcfb63232c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce1c2c6ad342a0148270a839b9ed9dda') in 0.082742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.446667 seconds.
+  path: Assets/AlienTileSet/Materials/SpriteLit.mat
+  artifactKey: Guid(272ba847f100d4251bb8260575189042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlienTileSet/Materials/SpriteLit.mat using Guid(272ba847f100d4251bb8260575189042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae9119626d1fa464136cbda4e0b94bb6') in 0.018530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.587433 seconds.
+  path: Assets/AlienTileSet/Prefabs/Mountains/BG_Mountains_1920x1080.prefab
+  artifactKey: Guid(1a05c14950b3ecf42a1fa0d412443081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlienTileSet/Prefabs/Mountains/BG_Mountains_1920x1080.prefab using Guid(1a05c14950b3ecf42a1fa0d412443081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1546a8e725f65c9131a581508356af2c') in 0.036445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.963202 seconds.
+  path: Assets/HandPainted Lava Textures/Materials/lave.prefab
+  artifactKey: Guid(645ac1eb2da9f41aaa11e0a3ec63ba70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HandPainted Lava Textures/Materials/lave.prefab using Guid(645ac1eb2da9f41aaa11e0a3ec63ba70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43a2f387acb399ee8ab4c85b4a6f19a1') in 0.062853 seconds 

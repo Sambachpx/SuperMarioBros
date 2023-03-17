@@ -946,3 +946,15 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2002.163355 seconds.
+  path: Assets/HandPainted Lava Textures/Materials/02.mat
+  artifactKey: Guid(745b04538c7c0a740b168e1c106307ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HandPainted Lava Textures/Materials/02.mat using Guid(745b04538c7c0a740b168e1c106307ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d28338d37afa3040ec33c504fd5f7f2') in 1.671666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 101.340333 seconds.
+  path: Assets/AlienTileSet/Prefabs/Moon/Planet_small_blue_512x512.prefab
+  artifactKey: Guid(d1b95363c1261614c92bba7cade2fa2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlienTileSet/Prefabs/Moon/Planet_small_blue_512x512.prefab using Guid(d1b95363c1261614c92bba7cade2fa2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39d2c3efb1ca609e4fc9d8054d92e744') in 0.368807 seconds 
