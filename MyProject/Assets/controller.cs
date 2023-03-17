@@ -32,7 +32,7 @@ public class controller : MonoBehaviour
             rend.flipX = false;
         }
 
-        if (h > 0)
+        if (h < 0)
         {
             rend.flipX = true;
         }

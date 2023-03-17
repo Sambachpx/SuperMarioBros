@@ -314,7 +314,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1987325333, guid: 6c03d6b210918444ea2c12e87b5b63ec, type: 3}
+  m_Sprite: {fileID: 379349338, guid: 6c03d6b210918444ea2c12e87b5b63ec, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -423,7 +423,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 2.2003937
+  MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
@@ -83675,7 +83675,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1.9337306
+  MinDistance: 3.0930166
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0

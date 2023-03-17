@@ -17,4 +17,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/SauvScene/Level 3.unity
     guid: 1a31abde894c044eb9e2aa8e1abe6f95
+  - enabled: 1
+    path: Assets/SauvScene/Level 4.unity
+    guid: 7f20b109c8c024b419a8931d6856fe35
+  - enabled: 1
+    path: Assets/SauvScene/Level 5.unity
+    guid: 4f0f8d0d4ccbc4be59cd7d1e5e5115a6
+  - enabled: 0
+    path: 
+    guid: a26ef7d69e3fd4794b1dd62771d7ec42
   m_configObjects: {}
