@@ -4,7 +4,7 @@ public class controller : MonoBehaviour
 {
     public Rigidbody2D rb2d;
     public SpriteRenderer rend;
-    public float Speed = 5;
+    public float Speed = 20;
     public float JumpSpeed = 5;
 
     public int jumpsLeft = 2;
