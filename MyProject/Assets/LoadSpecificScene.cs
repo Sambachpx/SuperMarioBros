@@ -24,10 +24,6 @@ public class LoadSpecificScene : MonoBehaviour
         {
             SceneManager.LoadScene("Level 5");
         }
-        else if (SceneManager.GetActiveScene().name == "Level 5")
-        {
-            SceneManager.LoadScene("Level 4");
-        }
     }
 }
 

@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class WeakSpot : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class WeakSpot : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             Destroy(objectToDestroy);
+            SceneManager.LoadScene("Level 1");
+
         }
     }
     
