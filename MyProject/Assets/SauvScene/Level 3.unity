@@ -402,8 +402,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb2d: {fileID: 0}
   rend: {fileID: 0}
-  Speed: 5
+  Speed: 10
   JumpSpeed: 60
+  jumpsLeft: 2
 --- !u!82 &119080182
 AudioSource:
   m_ObjectHideFlags: 0
@@ -539,8 +540,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 583597112}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 66, y: -14.1, z: 0}
-  m_LocalScale: {x: 166.6285, y: 0.9, z: 1}
+  m_LocalPosition: {x: 45.8, y: -14.1, z: 0}
+  m_LocalScale: {x: 106.27797, y: 1.2084895, z: 1.3427662}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1688022994}

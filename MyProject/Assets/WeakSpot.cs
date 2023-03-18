@@ -10,12 +10,7 @@ public class WeakSpot : MonoBehaviour
         {
             Destroy(objectToDestroy);
         }
-
-        if (collision.CompareTag("ennemi1"))
-        {
-            Destroy(objectToDestroy);
-        }
-
     }
+    
 
 }

@@ -346,7 +346,6 @@ GameObject:
   - component: {fileID: 119080179}
   - component: {fileID: 119080181}
   - component: {fileID: 119080182}
-  - component: {fileID: 119080183}
   m_Layer: 0
   m_Name: player
   m_TagString: Player
@@ -482,8 +481,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb2d: {fileID: 0}
   rend: {fileID: 0}
-  Speed: 5
+  Speed: 10
   JumpSpeed: 60
+  jumpsLeft: 2
 --- !u!82 &119080182
 AudioSource:
   m_ObjectHideFlags: 0
@@ -580,19 +580,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &119080183
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 119080176}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 20ddd2098c62645f2a21502aab158232, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectToDestroy: {fileID: 119080176}
 --- !u!1 &595856475
 GameObject:
   m_ObjectHideFlags: 0
@@ -711,6 +698,7 @@ GameObject:
   - component: {fileID: 701945228}
   - component: {fileID: 701945227}
   - component: {fileID: 701945226}
+  - component: {fileID: 701945230}
   m_Layer: 0
   m_Name: ennemi1
   m_TagString: ennemi1
@@ -829,6 +817,19 @@ Transform:
   m_Father: {fileID: 620697369}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &701945230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 701945225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20ddd2098c62645f2a21502aab158232, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToDestroy: {fileID: 119080176}
 --- !u!1 &839436487
 GameObject:
   m_ObjectHideFlags: 0
@@ -33578,6 +33579,16 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+  - first: {x: 3, y: 2, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 43
+      m_TileSpriteIndex: 28
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: 4, y: 2, z: 0}
     second:
       serializedVersion: 2
@@ -49406,7 +49417,7 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 65b7bf46c4904474eaeabd9a813c337c, type: 2}
   - m_RefCount: 102
     m_Data: {fileID: 11400000, guid: 7c8b3b6b400aa45788c5a0436f55eb16, type: 2}
-  - m_RefCount: 1162
+  - m_RefCount: 1163
     m_Data: {fileID: 11400000, guid: 0cd1ee17ade0145d3b214c081b36f2f3, type: 2}
   - m_RefCount: 21
     m_Data: {fileID: 11400000, guid: 3d3f5ff2ec7d64e2c93eb219da62a767, type: 2}
@@ -49473,7 +49484,7 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 102
     m_Data: {fileID: -1112471955, guid: a85cf3deae2704b7aaf8d96a8693fbfa, type: 3}
-  - m_RefCount: 1162
+  - m_RefCount: 1163
     m_Data: {fileID: -1970217149, guid: a85cf3deae2704b7aaf8d96a8693fbfa, type: 3}
   - m_RefCount: 21
     m_Data: {fileID: 991014068, guid: a85cf3deae2704b7aaf8d96a8693fbfa, type: 3}
@@ -49514,7 +49525,7 @@ Tilemap:
   - m_RefCount: 0
     m_Data: {fileID: 0}
   m_TileMatrixArray:
-  - m_RefCount: 2371
+  - m_RefCount: 2372
     m_Data:
       e00: 1
       e01: 0
@@ -49533,7 +49544,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 2371
+  - m_RefCount: 2372
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   - m_RefCount: 0
     m_Data: {r: 0.8027046, g: 0.39030412, b: 0.4152843, a: 1}
